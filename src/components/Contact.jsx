@@ -19,8 +19,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -32,16 +31,14 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-
-    emailjs
-      .send(
+    emailjs.send(
         'service_ykzv3hl',
         'template_5fam2af ',
         {
           from_name: form.name,
-          to_name: "Pranav Modgil",
+          to_name: 'Pranav Modgil',
           from_email: form.email,
-          to_email: "pranavmodgil@gmail.com",
+          to_email: 'pranavmodgil@gmail.com',
           message: form.message,
         },
         '-HtQeFEDk0z4m7qFA'
@@ -63,7 +60,7 @@ const Contact = () => {
 
           alert("Ahh, something went wrong. Please try again.");
         }
-      );
+      )
   };
 
   return (

@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "UI/UX Enthusiast",
       icon: web,
     },
     {
@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Aspiring Backend Developer",
       icon: backend,
     },
     {
@@ -72,34 +72,34 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -116,55 +116,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Finance Secretary",
+      company_name: "Indian Society For Technical Education, Thapar Chapter",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Oversaw the finances of Society Event - Xpedition.",
+        "Collaborated with cross-functional teams including designers, marketers, and other developers to create high-quality products for the society.",
+        "Participated in code reviews and in providing constructive feedback to other students.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Core Member",
+      company_name: "Indian Society For Technical Education, Thapar Chapter",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "February 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Oversaw and lead Hackonix - a hackathon which invited participants from various colleges including VIT Vellore, NIT Kurukshetra, BITS Goa.",
+        "Oversaw and lead Quest of the Curious - A Treasure hunt which entrailed 200+ students from TIET.",
+        "Handled Logistics and Finances for Colloquium 9.0 which witnessed the participation of 500+ students.",
       ],
     },
   ];
@@ -198,67 +170,126 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hostel Cleaning Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that facilitates students with room cleaning bookings along with complaint filing for repair work, providing a convenient and efficient solution.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "EJS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Slygoross/Hostel-Cleaning-Management-System",
     },
     {
-      name: "Job IT",
+      name: "Shopping Cart Backend",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "C++ Based Shopping Cart Backend to manage inventory and calculate orders.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Slygoross/Shopping-Cart-Backend",
     },
     {
-      name: "Trip Guide",
+      name: "Password Strength Checker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Basic Web app that shows the strength of the password entered.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Slygoross/Password-Strength-Checker",
+    },
+    {
+      name: "QR Code Generator",
+      description:
+        "A Basic Web App that Generates a QR code for any Web URL or a message.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Slygoross/QR-Code-Generator",
+    },
+    {
+      name: "Meme Generator",
+      description:
+        "A Web App that generates random memes on the click of a button.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "meme-api",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Slygoross/Meme-Generator",
+    },
+    {
+      name: "Digital Clock",
+      description:
+        "A Digital Clock Webpage.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Slygoross/Digital-Clock",
     },
   ];
   
